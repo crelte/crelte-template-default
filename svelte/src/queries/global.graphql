@@ -1,0 +1,7 @@
+query {
+  # header: globalSets(handle: "header", siteId: "*") {
+  header: crelteStarterGlobals(handle: "header", siteId: "*") {
+    siteId
+    title
+  }
+}

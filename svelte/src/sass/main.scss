@@ -1,0 +1,12 @@
+@import 'vars';
+@import 'resets';
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	padding: 1rem;
+	line-height: 1.4;
+}
