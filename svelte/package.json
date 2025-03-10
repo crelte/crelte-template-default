@@ -24,8 +24,8 @@
 		"vite-plugin-inspect": "^0.8.9"
 	},
 	"dependencies": {
-		"crelte": "^0.2.0",
-		"crelte-node": "^0.2.0",
-		"crelte-std": "^0.1.0"
+		"crelte": "^0.3.0",
+		"crelte-node": "^0.3.0",
+		"crelte-std": "^0.1.1"
 	}
 }

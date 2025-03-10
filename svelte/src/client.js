@@ -9,5 +9,4 @@ main({
 	errorPage,
 	entryQuery,
 	globalQuery,
-	preloadOnMouseOver: true,
 });
