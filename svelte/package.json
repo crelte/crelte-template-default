@@ -20,11 +20,10 @@
 		"svelte-check": "^3.6.2",
 		"svelte-preprocess": "^5.0.3",
 		"typescript-svelte-plugin": "^0.3.45",
-		"vite": "^5.0",
-		"vite-plugin-inspect": "^0.8.9"
+		"vite": "^5.0"
 	},
 	"dependencies": {
-		"crelte": "^0.3.0",
+		"crelte": "^0.4.0",
 		"crelte-node": "^0.4.0",
 		"crelte-std": "^0.1.1"
 	}
