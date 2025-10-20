@@ -1,4 +1,4 @@
-<script context="module">
+<script module>
 	export const templates = import.meta.glob('@/templates/*.svelte');
 
 	/** @type {import('crelte').Config} */
@@ -11,9 +11,11 @@
 	import Footer from './components/Footer.svelte';
 	import Header from './components/Header.svelte';
 
-	export let entry;
-	export let template;
-	export let templateData;
+	let { route } = $props();
+
+	let entry = $derived($route.entry);
+	let Template = $derived($route.template.default);
+	let templateData = $derived($route.loadedData);
 </script>
 
 <svelte:head>
@@ -25,7 +27,7 @@
 <!-- update entire component if page changes -->
 {#key entry}
 	<div class="app">
-		<svelte:component this={template} {entry} {...templateData} />
+		<Template {entry} {...templateData} />
 	</div>
 {/key}
 

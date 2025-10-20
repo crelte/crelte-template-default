@@ -1,5 +1,5 @@
 <script>
-	export let entry;
+	let { entry } = $props();
 </script>
 
 <div class="footer">

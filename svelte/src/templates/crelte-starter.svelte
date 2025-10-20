@@ -1,5 +1,5 @@
 <script>
-	export let entry;
+	let { entry } = $props();
 </script>
 
 <h1>Welcome</h1>
@@ -23,7 +23,7 @@
 		<br />
 		Remember to add the env variables in all
 		<code>.env*</code>
-		 files
+		files
 	</li>
 
 	<li>

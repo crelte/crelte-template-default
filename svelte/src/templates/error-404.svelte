@@ -1,5 +1,5 @@
 <script>
-	export let entry;
+	let { entry } = $props();
 </script>
 
 <h1>404</h1>

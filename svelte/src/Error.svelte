@@ -1,6 +1,6 @@
 <script>
-	export let status;
-	export let message;
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
+	let { status, message } = $props();
 </script>
 
 <svelte:head>

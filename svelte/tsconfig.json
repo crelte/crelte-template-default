@@ -3,12 +3,16 @@
 		"target": "ES2020",
 		"module": "ESNext",
 		"moduleResolution": "Bundler",
+		"verbatimModuleSyntax": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./src/*"]
 		},
-		"types": ["vite/client", "crelte-node/types"],
+		"types": ["vite/client", "crelte/types"],
 		"checkJs": true,
+		"noEmit": true,
+		"strict": true,
+		"noImplicitAny": false,
 		"plugins": [
 			{
 				"name": "typescript-svelte-plugin",
@@ -16,5 +20,5 @@
 			}
 		]
 	},
-	"exclude": ["node_modules", "dist"]
+	"exclude": ["node_modules", "dist", "server.cjs"]
 }

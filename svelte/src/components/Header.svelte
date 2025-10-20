@@ -4,7 +4,7 @@
 	const header = getGlobal('header');
 	const site = getSite();
 
-	export let entry;
+	let { entry } = $props();
 </script>
 
 <div class="header">
