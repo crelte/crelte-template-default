@@ -46,7 +46,7 @@
 
 	<li>
 		At last allow the sites, sections and globals to be queried via <a
-			href={entry.cpUrl + '/graphql/schemas/public'}
+			href={entry.cpUrl + '/graphql/schemas/1'}
 			target="_blank"
 		>
 			GraphQl
