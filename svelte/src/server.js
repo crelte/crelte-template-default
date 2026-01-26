@@ -11,3 +11,6 @@ export async function render(serverData) {
 export async function renderError(error, serverData) {
 	return await mainError({ error, errorPage, serverData });
 }
+
+/** @param {import('crelte/server').ServerRouter} router */
+export async function routes(router) {}
