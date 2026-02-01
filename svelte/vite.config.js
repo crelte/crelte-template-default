@@ -6,6 +6,9 @@ import crelte from 'crelte/vite';
 // https://vitejs.dev/config/
 export default defineConfig(() => {
 	return {
+		css: {
+			devSourcemap: true,
+		},
 		plugins: [svelte(), crelte()],
 		resolve: {
 			alias: [{ find: '@', replacement: resolve(__dirname, 'src') }],
