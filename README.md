@@ -1,7 +1,7 @@
 ## Crelte project
 
 This is a crelte project, if you want to know more about crelte
-check out the [documenation](https://github.com/crelte/crelte/tree/main/docs).
+check out the [documentation](https://docs.crelte.com/).
 
 # Local Development
 Once you have cloned the repository you can start the project with the following commands:
