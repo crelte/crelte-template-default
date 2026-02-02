@@ -1,12 +1,12 @@
-## Crelte project
+# Crelte project
 
 This is a crelte project, if you want to know more about crelte
 check out the [documentation](https://docs.crelte.com/).
 
-# Local Development
+## Local Development
 Once you have cloned the repository you can start the project with the following commands:
 
-## CMS
+### CMS
 
 ```bash
 # start ddev
@@ -17,7 +17,7 @@ ddev import-db --file=dump.sql.gz
 # copy assets
 ```
 
-## Svelte
+### Svelte
 
 ```bash
 cd svelte
