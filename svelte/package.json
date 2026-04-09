@@ -6,6 +6,7 @@
 	"scripts": {
 		"dev": "vite dev",
 		"prod": "node ./server.cjs",
+		"start": "node ./server.cjs",
 		"build": "vite build",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"lint": "eslint ./src"
@@ -33,6 +34,6 @@
 	},
 	"dependencies": {
 		"svelte": "^5.0",
-		"crelte": "^0.5.5"
+		"crelte": "^0.5.12"
 	}
 }

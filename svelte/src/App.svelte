@@ -11,6 +11,7 @@
 	import Footer from './components/Footer.svelte';
 	import Header from './components/Header.svelte';
 
+	/** @type {import('crelte').AppProps} */
 	let { route } = $props();
 
 	let entry = $derived($route.entry);

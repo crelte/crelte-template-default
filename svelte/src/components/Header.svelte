@@ -13,8 +13,8 @@
 	<nav>
 		<ul>
 			<li>
-				<a href={$site.url.toString()}>Starter</a>
-				<a href="https://docs.crelte.com/" target="_blank">Docs</a>
+				<a href={$site.url.href}>Starter</a>
+				<a href="https://docs.crelte.com" target="_blank">Docs</a>
 			</li>
 		</ul>
 	</nav>

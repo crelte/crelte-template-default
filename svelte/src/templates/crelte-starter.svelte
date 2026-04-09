@@ -4,9 +4,9 @@
 
 <h1>Welcome</h1>
 
-<p>Welcome to you're new Crelte project. This is the starter template.</p>
+<p>Welcome to your new Crelte project. This is the starter template.</p>
 <p>
-	If you're new to crelte we strongly recommend you to read the documentation
+	If you're new to crelte we strongly recommend to read the documentation
 	first.
 </p>
 
@@ -19,7 +19,7 @@
 		>
 			sites
 		</a>
-		if you wan't to support more languages
+		if you want to support more languages
 		<br />
 		Remember to add the env variables in all
 		<code>.env*</code>
@@ -36,7 +36,7 @@
 	</li>
 
 	<li>
-		Then setup youre first <a
+		Then setup your first <a
 			href={entry.cpUrl + '/settings/globals/new'}
 			target="_blank"
 		>
@@ -58,7 +58,7 @@
 <ol>
 	<li>
 		Modify the <code>global.graphql</code>
-		file removing crelte starter and replacing it with you're own global query
+		file removing crelte starter and replacing it with your own global query
 	</li>
 	<li>
 		Modify the <code>entry.graphql</code>
