@@ -39,6 +39,9 @@ $customSettings = $baseSettings
 	// Prevent transforms for gif and svg
 	->transformGifs(false)
 	->transformSvgs(false)
-	->headlessMode(true);
+	->headlessMode(true)
+
+	// fixes caching problems
+	->staticStatuses(App::env("CACHING") ?? false);
 
 return $customSettings;
