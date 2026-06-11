@@ -26,7 +26,7 @@
 <Header {entry} />
 
 <!-- update entire component if page changes -->
-{#key entry}
+{#key entry?.id}
 	<div class="app">
 		<Template {entry} {...templateData} />
 	</div>
