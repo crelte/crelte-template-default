@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+## Description: Run a command in the svelte directory
+## Usage: sv [command]
+## Example: "ddev sv npm install" or "ddev sv npm run dev"
+
+cd ./svelte && "$@"
