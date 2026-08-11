@@ -41,7 +41,9 @@ $customSettings = $baseSettings
 	->transformSvgs(false)
 	->headlessMode(true)
 
-	// fixes caching problems
-	->staticStatuses(App::env("CACHING") ?? false);
+	// automatically enable staticStatuses if CACHING is active
+	// note that it will now require a cron job to call `craft update-statuses`
+	// to update the status of an entry
+	->staticStatuses(App::env("CACHING") === true);
 
 return $customSettings;
