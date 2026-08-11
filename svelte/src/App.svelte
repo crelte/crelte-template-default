@@ -26,7 +26,7 @@
 <Header {entry} />
 
 <!-- update entire component if page changes -->
-{#key `${entry?.siteId}:${entry?.id}`}
+{#key entry?.url}
 	<div class="app">
 		<Template {entry} {...templateData} />
 	</div>
