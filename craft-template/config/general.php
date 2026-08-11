@@ -39,6 +39,11 @@ $customSettings = $baseSettings
 	// Prevent transforms for gif and svg
 	->transformGifs(false)
 	->transformSvgs(false)
-	->headlessMode(true);
+	->headlessMode(true)
+
+	// automatically enable staticStatuses if CACHING is active
+	// note that it will now require a cron job to call `craft update-statuses`
+	// to update the status of an entry
+	->staticStatuses(App::env("CACHING") === true);
 
 return $customSettings;
