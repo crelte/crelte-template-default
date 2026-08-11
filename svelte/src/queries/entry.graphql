@@ -3,6 +3,7 @@ query ($uri: [String], $siteId: [QueryArgument]) {
   entry: crelteStarterEntry(uri: $uri, siteId: $siteId) {
     id
     siteId
+    url
     sectionHandle
     typeHandle
     title
