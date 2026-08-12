@@ -13,5 +13,12 @@ export default defineConfig(() => {
 		resolve: {
 			alias: [{ find: '@', replacement: resolve(__dirname, 'src') }],
 		},
+		server: {
+			allowedHosts: ['.ddev.site'],
+			hmr: {
+				protocol: 'wss',
+				clientPort: 443,
+			},
+		},
 	};
 });
