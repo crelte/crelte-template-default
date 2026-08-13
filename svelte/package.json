@@ -34,6 +34,6 @@
 	},
 	"dependencies": {
 		"svelte": "^5.0",
-		"crelte": "^0.5.12"
+		"crelte": "^0.6.0-alpha.1"
 	}
 }
