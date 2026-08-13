@@ -3,17 +3,15 @@
 
 	const header = getGlobal('header');
 	const site = getSite();
-
-	let { entry } = $props();
-
-	$inspect('header.title', $header.title);
 </script>
 
 <div class="header">
 	<nav>
 		<ul>
 			<li>
-				<a href={$site.url.href}>Starter</a>
+				<a href={$site.url.href}>Home / {$header.title}</a>
+			</li>
+			<li>
 				<a href="https://docs.crelte.com" target="_blank">Docs</a>
 			</li>
 		</ul>
@@ -23,5 +21,10 @@
 <style lang="scss">
 	.header {
 		margin-bottom: 2rem;
+	}
+
+	ul {
+		display: flex;
+		gap: 1rem;
 	}
 </style>
