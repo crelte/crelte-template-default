@@ -1,5 +1,5 @@
 # Stage 1: Build the Craft CMS image with Composer installed
-FROM ghcr.io/craftcms/image:8.2
+FROM crelte/craft:8.4
 
 # Install Composer manually
 USER root
