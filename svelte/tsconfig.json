@@ -9,6 +9,7 @@
 			"@/*": ["./src/*"]
 		},
 		"types": ["vite/client", "crelte/types"],
+		"skipLibCheck": true,
 		"checkJs": true,
 		"noEmit": true,
 		"strict": true,
